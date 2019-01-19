@@ -1,0 +1,36 @@
+.cell{
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        margin: 0px;
+       
+ }
+
+ .row {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 100px;
+ }
+
+ .black {
+    background-color: black;
+}
+.red {
+    background-color:  #b70000;
+}
+
+
+ .checker {
+            margin: 10px;
+            border-radius: 50%;
+            height: 80px;
+            width: 80px;
+        }
+        .red-checker {
+            background-color: #ff2424;
+        }
+        .black-checker {
+            background-color: #6e6e6e;
+        }
